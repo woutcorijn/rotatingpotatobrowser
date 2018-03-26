@@ -97,6 +97,15 @@ input[type="text"]
 	margin-left:140px;
 	margin-top:25px;
 }
+
+#madeby {
+	bottom:0;
+	position:absolute;
+}
+
+a {
+	color:black;
+}
 	/* iphone 6 + */
 	@media only screen 
 and (min-device-width : 320px) 
@@ -166,6 +175,12 @@ width:700px;
 	width:500px;
 	}
  }
+ 
+#madeby {
+	font-size:40px;
+	bottom:0;
+	position:absolute;
+}
 	
 }
 
