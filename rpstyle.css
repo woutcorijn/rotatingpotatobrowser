@@ -4,7 +4,7 @@
     animation:bg 4s infinite linear;
 	-webkit-animation:bg 4s infinite linear;
  }
- 
+
  /* @-webkit-keyframes bg {
 	 0% {background-color:white;}
 	 25% {background-color:green;}
@@ -20,11 +20,11 @@
 	 50% {background-color:red;}
 	 75% {background-color:yellow;}
 	 90% {background-color:green;}
-	 100% {background-color:blue;}	
+	 100% {background-color:blue;}
 } */
 
  #potato {
-	 margin-top:250px;
+	 margin-top:100px;
 	 width:200px;
     animation:animation 3s infinite linear;
 	-webkit-animation:animation 3s infinite linear;
@@ -32,54 +32,39 @@
 
  @-webkit-keyframes animation {
    0% {
-	-ms-transform:rotate(0deg); 
-    -webkit-transform:rotate(0deg); 
+	-ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
 	width:200px;}
-	
+
    100% {
-	-ms-transform:rotate(360deg); 
-    -webkit-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
 	width:200px;}
  }
 
  @keyframes animation {
     0% {
-    -ms-transform:rotate(0deg); 
-    -webkit-transform:rotate(0deg); 
+    -ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
 	width:200px;
 	}
-	
+
    100% {
-	-ms-transform:rotate(360deg); 
-    -webkit-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
 	width:200px;
 	}
  }
 
-ul {
-	display:inline;
-	position:absolute;
-	margin-top:80px;
+#search {
+	margin-top:100px;
 }
- 
-li {
-	display:inline;
-	margin:20px;
-} 
 
-form {
-	display:inline;
-	position:absolute;
-	margin-top:30px;
-	margin-left:-400px;
-} 
- 
 input {
-position:absolute;
 height:42px;
 width:564px;
 color:black;
@@ -88,14 +73,6 @@ color:black;
 input[type="text"]
 {
     font-size:20px;
-}
- 
-#glogo {
-	display:inline;
-	width:auto;
-	height:50px;
-	margin-left:140px;
-	margin-top:25px;
 }
 
 #madeby {
@@ -107,80 +84,71 @@ a {
 	color:black;
 }
 	/* iphone 6 + */
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 	ul {
 	margin-top:0px;
 }
  #potato {
-	 margin-top:400px;
+	 margin-top:300px;
 	 width:500px;
  }
  li {
 	display:inline;
 	margin:20px;
-} 
+}
 
-form {
-	margin-top:35px;
-	margin-left:-490px;
-} 
+#search {
+	margin-top:200px;
+}
 
  input {
 height:82px;
 width:700px;
 }
- #glogo {
-	display:inline;
-	width:auto;
-	height:100px;
-	margin-left:180px;
-	margin-top:25px;
-}
- 
+
  input[type="text"]
 {
     font-size:40px;
 }
- 
- 
+
+
  @-webkit-keyframes animation {
    0% {
-	-ms-transform:rotate(0deg); 
-    -webkit-transform:rotate(0deg); 
+	-ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
 	width:500px;}
-	
+
    100% {
-	-ms-transform:rotate(360deg); 
-    -webkit-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
 	width:500px;}
  }
 
  @keyframes animation {
     0% {
-    -ms-transform:rotate(0deg); 
-    -webkit-transform:rotate(0deg); 
+    -ms-transform:rotate(0deg);
+    -webkit-transform:rotate(0deg);
     transform:rotate(0deg);
 	width:500px;
 	}
-	
+
    100% {
-	-ms-transform:rotate(360deg); 
-    -webkit-transform:rotate(360deg); 
+	-ms-transform:rotate(360deg);
+    -webkit-transform:rotate(360deg);
     transform:rotate(360deg);
 	width:500px;
 	}
  }
- 
+
 #madeby {
 	font-size:40px;
 	bottom:0;
 	position:absolute;
 }
-	
-}
 
+}
