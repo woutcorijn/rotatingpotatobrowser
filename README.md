@@ -1,4 +1,4 @@
 # rotatingpotatobrowser
 A fully functional google browser.
 <br>
-https://www.rotatingpotatobrowser.ga/
+https://rotatingpotatobrowser.woutcorijn.com/
